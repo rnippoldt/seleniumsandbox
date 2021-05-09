@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/byte-buddy-1.9.12.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/guava-27.1-jre.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/jcip-annotations-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/jeromq-0.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/jnacl-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/listenablefuture-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/okhttp-3.14.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/okio-1.17.3.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/opentracing-api-0.31.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/opentracing-noop-0.31.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/opentracing-tracerresolver-0.1.5.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/opentracing-util-0.31.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/selenium-4.0.0-alpha-1-nodeps.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/snakeyaml-1.24.jar"/>
+	<classpathentry kind="lib" path="lib/selenium_stand_alone/stripped-bundle.jar"/>
+	<classpathentry kind="lib" path="lib/junit/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/junit/junit-4.13.2.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

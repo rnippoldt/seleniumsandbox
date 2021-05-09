@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-08T18:34:53 CDT" name="Default suite" finished-at="2021-05-08T18:34:58 CDT" duration-ms="4445">
+    <groups>
+    </groups>
+    <test started-at="2021-05-08T18:34:53 CDT" name="Default test" finished-at="2021-05-08T18:34:58 CDT" duration-ms="4445">
+      <class name="NewTestNgClass1">
+        <test-method signature="firsttest()[pri:0, instance:NewTestNgClass1@6e0dec4a]" started-at="2021-05-08T18:34:53 CDT" name="firsttest" finished-at="2021-05-08T18:34:58 CDT" duration-ms="4406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttest -->
+      </class> <!-- NewTestNgClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
