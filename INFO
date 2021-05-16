@@ -1,0 +1,17 @@
+cd C:\Users\Ross\eclipse-workspace\seleniumsandbox
+
+https://github.com/rnippoldt/seleniumsandbox
+
+rnippoldt@hotmail.com
+ 
+ escape  :wq
+ 
+ git push seleniumsandbox master
+ git push origin master
+ 
+ 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 
+ 
+ 
+ GIT commands
+ gitk       User interface
+ 
