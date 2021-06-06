@@ -26,7 +26,9 @@ public class TestA
 		{
 			key = itr.next();
 			caps.setCapability(key, capsHashtable.get(key));
+			
 		}
+		print_DesiredCapabilities(caps);
 		
 		WebDriver driver;
 		
@@ -58,6 +60,18 @@ public class TestA
 		// catch (MalformedURLException e)
 		catch (Exception e) {
 			e.printStackTrace();
+		}
+	}
+	
+	public void print_DesiredCapabilities(DesiredCapabilities dcaps)
+	{
+		String key;
+		Set<String> dcaps_keys = dcaps.getCapabilityNames();
+		Iterator<String> itr = dcaps_keys.iterator();
+		while(itr.hasNext())
+		{
+			key = itr.next();
+			System.out.println(key + ": " + dcaps.getCapability(key));
 		}
 	}
 }
