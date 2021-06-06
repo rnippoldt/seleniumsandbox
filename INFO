@@ -6,8 +6,16 @@ rnippoldt@hotmail.com
  
  escape  :wq
  
+ git add filename
+ git add *          commits all modified files
+ 
  git push seleniumsandbox master
  git push origin master
+ 
+ git stauts
+ git diff --staged
+ 
+ git commit
  
  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 
  
@@ -15,3 +23,36 @@ rnippoldt@hotmail.com
  GIT commands
  gitk       User interface
  
+ 
+ 
+ 
+ BrowserStack 
+personal account 
+ross nippoldt 
+rnippoldt@hotmail.com
+Archer01
+
+https://automate.browserstack.com/dashboard/v2/builds/8ebe90420a6f5e28eceda80c97f7fa264a777e73
+
+
+
+
+
+ant
+ <project name="genTestReport" default="gen" basedir=".">
+        <description>
+                Generate the HTML report from JUnit XML files
+        </description>
+ 
+        <target name="gen">
+                <property name="genReportDir" location="${basedir}/unitTestReports"/>
+                <delete dir="${genReportDir}"/>
+                <mkdir dir="${genReportDir}"/>
+                <junitreport todir="${basedir}/unitTestReports">
+                        <fileset dir="${basedir}">
+                                <include name="**/TEST-*.xml"/>
+                        </fileset>
+                        <report format="frames" todir="${genReportDir}/html"/>
+                </junitreport>
+        </target>
+</project>

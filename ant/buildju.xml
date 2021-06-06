@@ -1,0 +1,19 @@
+ <project name="genTestReport" default="gen" basedir="./zju">
+        <description>
+                Generate the HTML report from JUnit XML files
+        </description>
+ 
+        <target name="gen">
+                <property name="zju" location="${basedir}/unitTestReports"/>
+                <delete dir="zju"/>
+                <mkdir dir="zju"/>
+                <junitreport todir="${basedir}/unitTestReports">
+                        <fileset dir="${basedir}">
+                                <include name="seleniumsandbox/src/main/java/mypackage/MyTest1.java"/>
+                        </fileset>
+                        <report format="frames" todir="zju/html"/>
+                </junitreport>
+        </target>
+</project>
+
+<!-- https://intellipaat.com/community/9187/how-can-i-generate-an-html-report-for-junit-results-->
