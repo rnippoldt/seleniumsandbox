@@ -1,6 +1,17 @@
 cd C:\Users\Ross\eclipse-workspace\seleniumsandbox
 
 https://github.com/rnippoldt/seleniumsandbox
+>git --version
+>git status 
+>git add filename
+>git add *          commits all modified files
+>git status
+>git push origin master
+>git commit
+     add text and then  <escapte>:wq
+>git status
+
+>git branch removecomments
 
 rnippoldt@hotmail.com
  
