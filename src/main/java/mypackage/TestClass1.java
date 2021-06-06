@@ -24,13 +24,13 @@ class TestClass1 implements Runnable
 	{		
 		test_configuration();
 		
-		TestB r1 = new TestB();
-		capsHashtable.put("name", r1.getClass().getSimpleName());
-		r1.executeTest(capsHashtable);
+		TestB testB = new TestB();
+		capsHashtable.put("name", testB.getClass().getSimpleName());
+		testB.executeTest(capsHashtable);
 		
-		TestA r2 = new TestA();
-		capsHashtable.put("name", r2.getClass().getSimpleName());
-		r2.executeTest(capsHashtable);	
+		TestA testA = new TestA();
+		capsHashtable.put("name", testA.getClass().getSimpleName());
+		testA.executeTest(capsHashtable);	
 	}
 	
 	
@@ -41,8 +41,8 @@ class TestClass1 implements Runnable
 		capsHashtable.put("browser_version", "latest");
 		capsHashtable.put("os", "Windows");
 		capsHashtable.put("os_version", "10");
-		capsHashtable.put("build", buildname);
-		capsHashtable.put("name", "Test_Thread");  //reset in run()
+		capsHashtable.put("build", buildname);     //build is the suite name
+		capsHashtable.put("name", "Test_Thread");  //name is name of the test or test thread
 	}
 	
 	
